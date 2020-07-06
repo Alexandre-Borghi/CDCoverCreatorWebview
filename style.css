@@ -1,0 +1,166 @@
+#tit {
+	position: absolute;
+
+	left: 30px;
+	top: 20px;
+	width: 964px;
+	height: 100px;
+
+	text-align: center;
+	vertical-align: middle;
+
+	background-color: #cccccc;
+}
+
+#tit>h1 {
+	font-size: 35px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#preview {
+	position: absolute;
+
+	left: 30px;
+	top: 150px;
+	width: 550px;
+	height: 550px;
+
+	background-color: #1abc9c;
+}
+
+#preview>img {
+	width: 550px;
+	height: 550px;
+
+	opacity: .7;
+}
+
+#options {
+	position: absolute;
+
+	left: 620px;
+	top: 150px;
+	width: 374px;
+	height: 550px;
+
+	background-color: #cccccc;
+}
+
+#options>label {
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+#options>#loadimg {
+	position: relative;
+
+	left: 20px;
+	width: 334px;
+	height: 40px;
+
+	margin-top: 30px;
+
+	color: white;
+	background-color: #555555;
+
+	border: none;
+}
+
+#options>#palette {
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 80px;
+	width: 334px;
+}
+
+#palette>* {
+	border: none;
+	box-shadow: none;
+}
+
+#options>#opacityslider {
+	margin-left: 20px;
+	right: 20px;
+	width: 334px;
+
+	margin-top: 20px;
+}
+
+#options>#saveimg {
+	position: relative;
+
+	left: 20px;
+	width: 334px;
+	height: 40px;
+	
+	margin-top: 20px;
+
+	color: white;
+	background-color: #555555;
+
+	border: none;
+}
+
+#options>#filename {
+	position: relative;
+
+	margin-top: 20px;
+
+	width: 334px;
+
+	left: 20px;
+	height: 20px;
+
+	border: none;
+	box-shadow: none;
+}
+
+#tracks {
+	padding: 0;
+	position: absolute;
+	left: 40px;
+	right: 40px;
+	bottom: 0px;
+
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+#tracks>input {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 25px;
+
+	border: none;
+	box-shadow: none;
+
+	font-size: 15pt;
+
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+#cdtitle {
+	position: absolute;
+
+	margin: 0;
+	padding: 0;
+	left: 60px;
+	right: 60px;
+	top: 20px;
+	height: 40px;
+
+	border: none;
+	box-shadow: none;
+
+	background-color: rgba(255, 255, 255, 0.7);
+
+	text-align: center;
+	vertical-align: middle;
+	font-size: 32px;
+}

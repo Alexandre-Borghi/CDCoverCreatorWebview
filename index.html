@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+
+	<script src="./jquery-3.5.1.min.js"></script>
+	<script src="./html2canvas.min.js"></script>
+	<script src="./FileSaver.js"></script>
+	<script src="./script.js"></script>
+</head>
+
+<body>
+	<div id="tit">
+		<h1>Création de couverture pour CD</h1>
+	</div>
+	<div id="preview">
+		<img src="" alt="" id="bgimg">
+		<input type="text" id="cdtitle">
+		<ul id="tracks">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+			<input type="text">
+		</ul>
+	</div>
+	<div id="options">
+		<label for="loadimg">Charger l'image de fond :</label>
+		<input type="file" id="loadimg" name="loadimg">
+		<div id="palette">
+
+		</div>
+		<input type="range" id="opacityslider" min="0" max="1" step="0.01">
+		<input type="text" placeholder="Nom du fichier" id="filename">
+		<button id="saveimg">Enregistrer la couverture</button>
+	</div>
+</body>
+
+</html>
